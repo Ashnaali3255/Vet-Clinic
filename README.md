@@ -1,43 +1,4 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
-<!-- TABLE OF CONTENTS -->
+# Vet Clinic
 
 # 📗 Table of Contents
 
@@ -64,7 +25,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Vet-Clinic] <a name="Vet-Clinic"></a>
 
 
-**[Vet-clinic]** is a project in which we use "PostgreSQL" and create Tables for this. 
+**[Vet-clinic]** is a project in which we use "PostgreSQL". This project Vet Clinic database that store details of animals in form of a Table and also generates specific reports using SQL queries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -124,11 +85,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Visual Studio
-- Github
-- NodeJS
-- React & Redux
-- Browser
+Install Postgres SQL
+
+Postgress SQL download
 
 ### Setup
 
@@ -142,27 +101,16 @@ Install this project with:
 
 - npm install
 
+### Usage
+To run the project, execute the following command:
+
+  psql -u postgres
+Enter your password and continue with sql commands.
+
 ### Run tests
 
-To run tests, run the following command:
-
-1. For styles: npx stylelint "**/*.{css,scss}"
- 2. For Javascript: npx eslint .
-
- To fix it. run the following command:
-
- 1. For styles: npx stylelint "**/*.{css,scss}" --fix
- 2. For Javascript: npx eslint . --fix
-
- For REACT & Redux:
- 
- Run this command for JS:
-
- 1. npx eslint "**/*.{js,jsx}"
-
- To fix use this command:
-
- 1. npx eslint "**/*.{js,jsx}" --fix
+To run tests, run the following command: 
+  N/A
 
 ### Deployment
 
@@ -177,7 +125,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Ashna Ali**
 
 - GitHub: [@githubhandle](https://github.com/Ashnaali3255)
 - Twitter: [@twitterhandle](https://twitter.com/Ashna_Ali1)
