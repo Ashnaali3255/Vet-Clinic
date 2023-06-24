@@ -60,9 +60,9 @@ PostgreSQL
 
 ### Key Features <a name="key-features"></a>
 
-- **[Use database transactions.]**
-- **[Modify and delete data in SQL]**
-- **[I used knowledge of aggregate functions and GROUP BY to answer analytical questions.]**
+- **[Understand the different types of relationships between tables.]**
+- **[Prepare complex queries that answer analytical questions.]**
+- **[Use primary key & foreign key mechanism for joining tables.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +136,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Vet clinic database: query multiple tables]**
 - [ ] **[Vet clinic database: add 'join table' for visits]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
