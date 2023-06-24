@@ -14,8 +14,9 @@ SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 -- Transaction 1: Update species to "unspecified" and rollback
 BEGIN;
 UPDATE animals SET species = 'unspecified';
-SELECT * FROM animals;
+SELECT species from animals; 
 ROLLBACK;
+SELECT species from animals;
 
 -- Transaction 2: Update species based on name and commit
 BEGIN;
