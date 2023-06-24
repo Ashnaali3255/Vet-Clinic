@@ -19,23 +19,15 @@ ROLLBACK;
 
 -- Transaction 2: Update species based on name and commit
 BEGIN;
-UPDATE animals
-SET species = 'digimon'
-WHERE name LIKE '%mon';
-UPDATE animals
-SET species = 'pokemon'
-WHERE species IS NULL;
-SELECT * FROM animals;
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon%';
+UPDATE animals SET species = 'pokemon' WHERE TRIM(species) IS NULL;
 COMMIT;
+SELECT * FROM animals;
 
 -- Transaction 3: Delete records, update weights, and commit
 BEGIN;
-DELETE FROM animals WHERE date_of_birth > '2022-01-01';
-SAVEPOINT my_savepoint;
-UPDATE animals SET weight_kg = weight_kg * -1;
-ROLLBACK TO SAVEPOINT my_savepoint;
-UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
-COMMIT;
+DELETE FROM animals;
+ROLLBACK;
 SELECT * FROM animals;
 
 -- queries to answer the  questions
