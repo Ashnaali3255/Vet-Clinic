@@ -137,7 +137,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Vet clinic database: query and update animals table]**
 - [ ] **[Vet clinic database: query multiple tables]**
 - [ ] **[Vet clinic database: add 'join table' for visits]**
 
