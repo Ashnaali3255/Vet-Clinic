@@ -19,10 +19,14 @@ ROLLBACK;
 
 -- Transaction 2: Update species based on name and commit
 BEGIN;
-UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon%';
-UPDATE animals SET species = 'pokemon' WHERE TRIM(species) IS NULL;
-COMMIT;
+UPDATE animals
+SET species = 'digimon'
+WHERE name LIKE '%mon';
+UPDATE animals
+SET species = 'pokemon'
+WHERE species IS NULL;
 SELECT * FROM animals;
+COMMIT;
 
 -- Transaction 3: Delete records, update weights, and commit
 BEGIN;
