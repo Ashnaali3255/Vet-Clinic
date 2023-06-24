@@ -60,8 +60,9 @@ PostgreSQL
 
 ### Key Features <a name="key-features"></a>
 
-- **[Animals table that consists of details of each animals eg. Name, DoB, etc.]**
-- **[Queries to list all animals whose names ends with 'mon']**
+- **[Use database transactions.]**
+- **[Modify and delete data in SQL]**
+- **[I used knowledge of aggregate functions and GROUP BY to answer analytical questions.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,8 +77,6 @@ N/A
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -137,7 +136,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Vet clinic database: query and update animals table]**
 - [ ] **[Vet clinic database: query multiple tables]**
 - [ ] **[Vet clinic database: add 'join table' for visits]**
 
