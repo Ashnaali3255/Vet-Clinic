@@ -9,5 +9,4 @@ CREATE TABLE animals (
   weight_kg DECIMAL(5, 2),
   species VARCHAR(255)
 );
-ADD species VARCHAR(100);
 
