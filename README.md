@@ -60,8 +60,9 @@ PostgreSQL
 
 ### Key Features <a name="key-features"></a>
 
-- **[Animals table that consists of details of each animals eg. Name, DoB, etc.]**
-- **[Queries to list all animals whose names ends with 'mon']**
+- **[Use database transactions.]**
+- **[Modify and delete data in SQL]**
+- **[I used knowledge of aggregate functions and GROUP BY to answer analytical questions.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
