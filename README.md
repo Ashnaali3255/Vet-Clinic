@@ -130,13 +130,27 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/Ashna_Ali1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ashna-ali-342151255/)
 
+👤 **Abdulaziz Fakhriddinov**
+
+- GitHub: [@githubhandle](https://github.com/AFakhriddinov)
+- Twitter: [@twitterhandle](https://twitter.com/AbdulAzizFakhr2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/afakhriddinov)
+
+👤 **Berhanu Baye**
+
+- GitHub: [@githubhandle](https://github.com/BranBayou)
+- Twitter: [@twitterhandle](https://twitter.com/Ashna_Ali1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/bran-baye/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[More projects of Microverse]**
+- [ ] **[Create a database based on a diagram]**
+- [ ] **[Decode Morse message]**
+- [ ] **[Create your own Enumerable]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
