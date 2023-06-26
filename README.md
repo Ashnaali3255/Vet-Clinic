@@ -139,7 +139,6 @@ You can deploy this project using:
 👤 **Berhanu Baye**
 
 - GitHub: [@githubhandle](https://github.com/BranBayou)
-- Twitter: [@twitterhandle](https://twitter.com/Ashna_Ali1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/bran-baye/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
