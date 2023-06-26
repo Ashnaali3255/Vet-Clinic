@@ -156,3 +156,5 @@ JOIN species ON species.id = animals.species_id
 WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name
 ORDER BY COUNT DESC LIMIT 1; 
+
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
